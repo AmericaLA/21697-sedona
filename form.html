@@ -46,22 +46,32 @@
                                 
                 <div class="name-block clearfix">
                     <div class="form-title">Представьтесь, пожалуйста:</div>
-                    <label class="name-block__surname">Фамилия:</label>
-                    <input class="name-block__surname-input" type="text" name="">   
-                    <label class="name-block__name">Имя:</label>
-                    <input class="name-block__name-input" type="text" name="">
-                    <label class="name-block__second-name">Отчество:</label>
-                    <input class="name-block__second-name-input" type="text" name="">
+                    <div class="name-block-mini">
+                        <label class="name-block-mini__surname">Фамилия:</label>
+                        <input class="name-block-mini__surname-input" type="text" name="">
+                    </div>
+                    <div class="name-block-mini">
+                        <label class="name-block-mini__name">Имя:</label>
+                        <input class="name-block-mini__name-input" type="text" name="">
+                    </div>
+                    <div class="name-block-mini">
+                        <label class="name-block-mini__second-name">Отчество:</label>
+                        <input class="name-block-mini__second-name-input" type="text" name="">
+                    </div>     
                 </div>
                                 
                                     
                                 
                     <div class="opinion-block clearfix">
                         <div class="form-title">Ваше общее впечатлеие</div>
-                        <input class="opinion-block__positive-input" type="radio" name="">
-                        <label class="opinion-block__positive">Скорее положительное</label>
-                        <input class="opinion-block__negative-input" type="radio" name="">
-                        <label class="opinion-block__negative">Скорее отрицательное</label>
+                        <div class="opinion-block-mini">
+                            <input class="opinion-block-mini__positive-input" type="radio" name="">
+                            <label class="opinion-block-mini__positive">Скорее положительное</label>
+                        </div>
+                        <div class="opinion-block-mini">
+                            <input class="opinion-block-mini__negative-input" type="radio" name="">
+                            <label class="opinion-block-mini__negative">Скорее отрицательное</label>
+                        </div>    
                                     
                     </div>
                                 
@@ -106,33 +116,38 @@
                             </div>    
                                         
                             <div class="name-block clearfix">
-                                <label class="name-block__surname">Фамилия:</label>
-                                <input class="name-block__surname-input" type="text" name="">   
-                                <label class="name-block__name">Имя:</label>
-                                <input class="name-block__name-input" type="text" name="">
-                                <label class="name-block__second-name">Отчество:</label>
-                                <input class="name-block__second-name-input" type="text" name="">
+                                <div class="name-block-mini">
+                                    <label class="name-block-mini__surname">Фамилия:</label>
+                                    <input class="name-block-mini__surname-input" type="text" name=""> 
+                                </div>
+                                <div class="name-block-mini">
+                                    <label class="name-block-mini__name">Имя:</label>
+                                    <input class="name-block-mini__name-input" type="text" name="">
+                                </div>
+                                <div class="name-block-mini">
+                                    <label class="name-block-mini__second-name">Отчество:</label>
+                                    <input class="name-block-mini__second-name-input" type="text" name="">
+                                </div>    
                             </div>
                         </div>
-                        <div class="travellers-name clearfix">
+                        <div class="travellers-name clearfix">  
                             <div class="index-number">    
                                 <label class="index-number__mark">Количество путешественников</label>
-                            <input class="index-number__item" type="text" name="1">       
+                                <input class="index-number__item" type="text" name="1">       
                             </div>    
                                         
                             <div class="name-block clearfix">
                                 <label class="name-block__surname">Фамилия:</label>
                                 <input class="name-block__surname-input" type="text" name="">       
-                                <label class="name-block__name">Имя:</label>    
+                                <label class="name-block__name">Имя:</label> 
                                 <input class="name-block__name-input" type="text" name="">
                                 <label class="name-block__second-name">Отчество:</label>
                                 <input class="name-block__second-name-input" type="text" name="">
                             </div>
-                         </div>
+                `       </div>  
                     </div>
-                                
-                                
-                                
+                    
+                
                     <div class="sights-block clearfix">
                         <div class="form-title">Посещенные достопримечательности</div>
                         <div class="sights-info clearfix">    
@@ -155,27 +170,34 @@
                                 
                                 
                                 
-                    <div class="check-block clearfix">
+                    <div class="mini-photo-block clearfix">
+                        <div class="form-title">Загрузите фотографии</div>
+                        <input type="submit" value="Выбрать фотографии">
+                        <div class="mini-photo-block-inside clearfix">
+                            <div class="mini-photo-block__item"></div>
+                            <div class="mini-photo-block__item"></div>
+                            <div class="mini-photo-block__item"></div>
+                            <div class="mini-photo-block__item"></div>
+                            <div class="mini-photo-block__item"></div>
+                            <div class="mini-photo-block__item"></div>
+                        </div>    
+                    </div>
+                             
+                    
+                    
+                    <div class="check-block clearfix">  <!--наплывающий блок-->
                         <div class="form-title">Что-то пошло не так</div>
                         <label class="check-block__name">Проверьте поля, выделенные красныи, скорее всего вы забыли из заполнить</label>
                         <input type="submit" value="OK"> 
                     </div> 
                                 
                                 
-                                
-                    <div class="mini-photo-block clearfix">
-                        <div class="mini-photo-block__item"></div>
-                        <div class="mini-photo-block__item"></div>
-                        <div class="mini-photo-block__item"></div> 
-                    </div>
-                                
-                                
-                                
-                    <div class="reply-block clearfix">
+                    <div class="reply-block clearfix"> <!--наплывающий блок-->
                         <div class="form-title">Ваш отзыв отправлен</div>
                         <label class="check-block__name">Спасибо за ваше участие, ваш отзыв уже поступил к нам.
 В ближайшее время мы опубликуем его на сайте.</label>
                     </div>
+                    
                                 
                     <div class="close-block clearfix">
                         <input type="submit" value="Закрыть окно"> 
