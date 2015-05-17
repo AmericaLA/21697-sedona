@@ -1,6 +1,6 @@
-@color: #fff;
-@bg-color: #000;
-@wrap-width: 300px;
+$color: #fff;
+$bg-color: #000;
+$wrap-width: 300px;
 
 html, body {
   height: 100%;
@@ -10,20 +10,20 @@ html, body {
 }
 
 body {
-  background-color: @bg-color;
-  color: @color;
+  background-color: $bg-color;
+  color: $color;
 }
 
 .page-header {
   &__logo-wrap {
-    width: @wrap-width;
-    height: @wrap-width/2;
-    margin: @wrap-width/4 auto 0;
+    width: $wrap-width;
+    height: $wrap-width/2;
+    margin: $wrap-width/4 auto 0;
     text-align: center;
   }
 
   &__logo-link {
-    color: @color;
+    color: $color;
     font-size: 28px;
     font-weight: bold;
   }
